@@ -1,4 +1,4 @@
-def my_fun(*kids):
+def findYoungChild(*kids):
     print("the youngest child is "+kids[3])
 
-my_fun("Thas","Mumi","Muz","Amee")
+findYoungChild("Thas","Mumi","Muz","Amee")
