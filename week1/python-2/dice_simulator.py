@@ -17,7 +17,7 @@ if __name__=="__main__":
     while True:
         user_input=input("Press enter to roll the dice (or type 'q' to quit): ")
         if user_input.lower()=='q':
-            print("Existing Dice simulator")
+            print("Exiting Dice simulator")
             break
 
         result=dice.roll()
