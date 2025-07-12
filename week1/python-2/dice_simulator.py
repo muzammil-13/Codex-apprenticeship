@@ -11,9 +11,8 @@ class Dice:
         return random.randint(1,self.sides)
 
 # main program to use the dice class
-if __name__=="main":
-    # create a standard 6-sided dice
-    dice=Dice()
+if __name__=="__main__":
+    dice=Dice() # create a standard 6-sided dice
     print("Dice simulator")
     while True:
         user_input=input("Press enter to roll the dice (or type 'q' to quit): ")
