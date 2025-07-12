@@ -8,7 +8,7 @@ class Dice:
 
     def roll(self):
         # return a random number between 1 and the number of sides
-        return random.randit(1,self.sides)
+        return random.randint(1,self.sides)
 
 # main program to use the dice class
 if __name__=="main":
